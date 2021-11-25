@@ -1,4 +1,4 @@
-Problem – Ships & Crane
+##**Problem – Ships & Cranes**
 Given specifications of a ship and different types of containers, find whether the containers can be successfully stacked in the ship or not. If they can be, output a possible stacking.
 
 •	7 different parameters are used as constraints. They are: -
@@ -32,7 +32,7 @@ Class Crane
 •	 Each parameter of a container is checked. As soon as a container fails in any of the parameter, a ‘false’ is returned, which in turn results in a “Not possible” output to the user. Only if all the containers fulfil the constraints of the Ship, a ‘true’ is returned.
 •	For stacking a weak container (which is done in the end, all stacking all other containers), a HashSet mp is maintained. A stack is added to mp if a weak container is stacked in it. Hence, that stack is sealed now and no more container can be stacked in it. The weak container will be on the top.
 
-Test Cases
+## **Test Cases**
 
 Case 1:-
 
