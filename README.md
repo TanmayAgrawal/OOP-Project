@@ -1,4 +1,4 @@
-##**Problem – Ships & Cranes**
+## **Problem – Ships & Cranes**
 
 Given specifications of a ship and different types of containers, find whether the containers can be successfully stacked in the ship or not. If they can be, output a possible stacking.
 
@@ -18,7 +18,7 @@ o	Liquid (Type 3) – Carries liquid substance. Has some sway.
 o	Radioactive (Type 4) – Contains radioactive substance, hence has some associated toxicity with it.
 o	Weak (Type 5) – Contains fragile equipment, hence no other container can be put on top of it
 
-##**Code Explanation**
+## **Code Explanation**
 •	Class ContainerType is the parent class of all different types of containers.
 
 •	Class Refrigerate, Toxic, Liquid, Regular and Weak inherit the ContainerType class and denote the respective type of containers.
@@ -37,7 +37,7 @@ o	Object ct of ContainerType denotes the type of the container. Function assignT
 
 •	Class Driver contains the main() function. It initializes all the classes, takes the inputs from the user and store them accordingly. It also receives the verdict from the Crane class whether the containers can be stacked or not, and accordingly gives the output.	
 
-###**Class Crane**
+### **Class Crane**
 
 •	2-D List Array ‘arrange’ stores the final stacking of containers. Each list denotes a stack. The 1st element of each list of the 2-D list (arrange[0]) denotes the bottom-most container of the stack, the 2nd element denotes the container above it, and so on. Hence the last element of each list in ‘arrange’ denotes the topmost container of the stack.
 
